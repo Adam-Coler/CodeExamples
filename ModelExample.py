@@ -1,3 +1,5 @@
+# Credit for the ordiginal implementation of these models goes to https://github.com/cwi-dis/CEAP-360VR-Dataset
+
 from AffectML import FileDetails
 import json
 import tensorflow as tf
