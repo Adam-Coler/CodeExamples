@@ -1,5 +1,5 @@
 
-# this code is part of a class called "KeyEventTimeStampDataLogger"
+// this code is part of a class called "KeyEventTimeStampDataLogger"
 
 public static KeyEventTimeStampDataLogger Instance { get; private set; } // setting up a singleton design
 
@@ -34,7 +34,7 @@ private async void setUpDataLogging() // when the setUpDataLogging event is trig
     isLogging = true; // Set a flag that this script is ready to log
 }
 
-# this function is called from other classes to log data to the csv recorded by this class
+// this function is called from other classes to log data to the csv recorded by this class
 public void logRow(string eventType, string eventName, string eventTime, string senderName)
 {
     if (isLogging)
